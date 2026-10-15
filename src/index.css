@@ -19,27 +19,23 @@
     color: #1e293b;
   }
 
-  /* Cormorant Garamond headings need confident scaling due to classic serif x-height */
-  h1 {
-    font-family: 'Cormorant Garamond', Georgia, Cambria, serif;
-    font-weight: 500;
-    line-height: 1.1;
+  /* Confident, ultra-legible modern headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', 'Outfit', system-ui, -apple-system, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.025em;
   }
 
-  h2 {
-    font-family: 'Cormorant Garamond', Georgia, Cambria, serif;
-    font-weight: 500;
+  h1 {
     line-height: 1.15;
   }
 
-  h3 {
-    font-family: 'Cormorant Garamond', Georgia, Cambria, serif;
-    font-weight: 500;
+  h2 {
     line-height: 1.2;
   }
 
-  h4, h5, h6, .font-serif, .font-display {
-    font-family: 'Cormorant Garamond', Georgia, Cambria, serif;
+  h3 {
+    line-height: 1.25;
   }
 }
 

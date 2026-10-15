@@ -12,7 +12,7 @@ const estateSlides = [
   {
     id: 1,
     title: "Crown Crest Luxury Enclave",
-    location: "Lekki Phase 1, Lagos",
+    location: "Old GRA, Port Harcourt",
     scope: "64 Units • Full Estate Administration",
     tag: "Residential Estate",
     image:
@@ -22,7 +22,7 @@ const estateSlides = [
   {
     id: 2,
     title: "Meridian Commercial Plaza",
-    location: "Victoria Island, Lagos",
+    location: "Trans-Amadi, Port Harcourt",
     scope: "8 Floors • Total Facilities Management",
     tag: "Commercial Facility",
     image:
@@ -32,7 +32,7 @@ const estateSlides = [
   {
     id: 3,
     title: "Oakwood Residences & Villas",
-    location: "Ikoyi, Lagos",
+    location: "Peter Odili Road, Port Harcourt",
     scope: "Luxury Refurbishment & Tenancy Oversight",
     tag: "Turnkey Refurbishment",
     image:
@@ -42,7 +42,7 @@ const estateSlides = [
   {
     id: 4,
     title: "Sovereign Heights Community",
-    location: "Maitama, Abuja",
+    location: "Golf Estate, Port Harcourt",
     scope: "42 Units • Grounds & Landscaping Care",
     tag: "Grounds & Landscaping",
     image:
@@ -52,7 +52,7 @@ const estateSlides = [
   {
     id: 5,
     title: "Emerald Bay Executive Court",
-    location: "Ajah Corridor, Lagos",
+    location: "Victoria Island, Lagos",
     scope: "50 Duplex Units • Utilities & Security Operations",
     tag: "Utilities Operations",
     image:

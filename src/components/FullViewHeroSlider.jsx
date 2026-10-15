@@ -6,15 +6,15 @@ const estateSlides = [
   {
     id: 1,
     title: "Crown Crest Luxury Enclave",
-    location: "Lekki Phase 1, Lagos",
+    location: "Old GRA, Port Harcourt",
     type: "Gated Residential Community",
     image:
       "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1920&q=80",
   },
   {
     id: 2,
-    title: "Meridian Commercial Plaza",
-    location: "Victoria Island, Lagos",
+    title: "Meridian Commercial Complex",
+    location: "Trans-Amadi, Port Harcourt",
     type: "Corporate Office Tower",
     image:
       "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
@@ -22,15 +22,15 @@ const estateSlides = [
   {
     id: 3,
     title: "Oakwood Residences",
-    location: "Ikoyi, Lagos",
+    location: "Peter Odili Road, Port Harcourt",
     type: "Luxury Villa Refurbishment",
     image:
       "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1920&q=80",
   },
   {
     id: 4,
-    title: "Sovereign Heights",
-    location: "Maitama, Abuja",
+    title: "Sovereign Heights Enclave",
+    location: "Golf Estate, Port Harcourt",
     type: "Grounds & Landscaped Enclave",
     image:
       "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1920&q=80",
@@ -38,7 +38,7 @@ const estateSlides = [
   {
     id: 5,
     title: "Emerald Metropolitan Court",
-    location: "Central Business District, Abuja",
+    location: "Victoria Island, Lagos",
     type: "Residential Utilities Operations",
     image:
       "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?auto=format&fit=crop&w=1920&q=80",
@@ -142,9 +142,9 @@ export default function FullViewHeroSlider() {
             Estate Stewardship • Facilities • Valuations
           </p>
 
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-normal tracking-tight text-white leading-[1.08]">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.15]">
             Preserving Asset Longevity & Value Across{" "}
-            <span className="italic font-light text-emerald-300">Nigeria</span>.
+            <span className="text-emerald-400 font-bold">Nigeria</span>.
           </h1>
 
           <p className="text-base sm:text-lg lg:text-xl text-slate-200 leading-relaxed max-w-xl font-normal">

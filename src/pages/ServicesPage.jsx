@@ -46,7 +46,7 @@ export default function ServicesPage() {
             <p className="text-xs sm:text-sm font-semibold tracking-widest text-emerald-400 uppercase">
               Contract Deliverables
             </p>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight text-white leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-tight">
               Our 10 Core Disciplines
             </h1>
             <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
@@ -132,7 +132,7 @@ export default function ServicesPage() {
                         </span>
                       </div>
 
-                      <h2 className="text-3xl sm:text-4xl font-light tracking-tight text-slate-900">
+                      <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">
                         {srv.title}
                       </h2>
 
@@ -196,7 +196,7 @@ export default function ServicesPage() {
       <section className="py-20 bg-slate-950 text-white border-t border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div className="space-y-1">
-            <h3 className="text-2xl sm:text-3xl font-light text-white">
+            <h3 className="text-2xl sm:text-3xl font-bold text-white">
               Need an Integrated Service Level Agreement?
             </h3>
             <p className="text-sm sm:text-base text-slate-400 font-light">

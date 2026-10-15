@@ -1,38 +1,55 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowUpRight, ArrowRight, CheckCircle2 } from "lucide-react";
+import {
+  ArrowRight,
+  CheckCircle2,
+  Building2,
+  Zap,
+  Scale,
+  HardHat,
+  Sparkles,
+  ShieldCheck,
+} from "lucide-react";
 import { stats } from "../data/servicesData";
 import { projects, testimonials } from "../data/projectsData";
 import FullViewHeroSlider from "../components/FullViewHeroSlider";
 
-const corePillars = [
+const featuredServices = [
   {
-    number: "01",
-    title: "Estate Stewardship & Tenancy Administration",
-    scope:
-      "Gated community governance, access control oversight, legal tenancy administration, and transparent service charge accounting.",
+    title: "Estate Management",
+    desc: "Comprehensive residential estate stewardship, bylaws enforcement, and transparent service charge collection.",
     link: "/services#estate-management",
+    icon: Building2,
   },
   {
-    number: "02",
-    title: "Total Facilities & Utilities Operations",
-    scope:
-      "Commercial plant management, continuous generator power logistics, industrial water treatment plants, and HSE compliance.",
+    title: "Facilities & Utilities",
+    desc: "24/7 central generator power distribution, borehole water treatment plants, and facility engineering.",
     link: "/services#facility-management",
+    icon: Zap,
   },
   {
-    number: "03",
-    title: "Property Valuation & Asset Advisory",
-    scope:
-      "Certified market appraisals for bank collateral, financial reporting, feasibility studies, and strategic real estate sales.",
+    title: "Property Valuation",
+    desc: "Certified appraisals for mortgage collateral, statutory accounting, and investment risk advisory.",
     link: "/services#property-valuation",
+    icon: Scale,
   },
   {
-    number: "04",
-    title: "Building Maintenance & Refurbishment",
-    scope:
-      "Planned preventative engineering, 24/7 emergency repairs, pre-purchase structural snagging audits, and complete architectural makeovers.",
+    title: "Building Maintenance",
+    desc: "Planned preventative engineering, pre-purchase structural snagging, and architectural renovations.",
     link: "/services#building-maintenance",
+    icon: HardHat,
+  },
+  {
+    title: "Commercial Janitorial",
+    desc: "Industrial sanitation programs, scheduled corporate cleaning, and disciplined waste logistics.",
+    link: "/services#cleaning-services",
+    icon: Sparkles,
+  },
+  {
+    title: "Perimeter Security",
+    desc: "Monitored visitor access control, trained guard deployment, and perimeter surveillance oversight.",
+    link: "/services#security-services",
+    icon: ShieldCheck,
   },
 ];
 
@@ -69,65 +86,71 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 3. Core Disciplines Preview (Legible Rows) */}
-      <section className="py-20 sm:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-slate-200">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 sm:mb-16 gap-6">
-          <div className="space-y-3 max-w-xl">
+      {/* 3. Core Disciplines (Lightweight, Non-Detailed Grid) */}
+      <section className="py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-slate-200">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 sm:mb-12 gap-4">
+          <div className="space-y-2 max-w-xl">
             <span className="text-xs sm:text-sm font-semibold tracking-widest text-emerald-700 uppercase">
               Areas of Practice
             </span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight text-slate-900 leading-tight">
-              Integrated Real Estate & Facility Solutions
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-slate-900 leading-tight">
+              Real Estate & Integrated Facility Services
             </h2>
           </div>
 
           <Link
             to="/services"
-            className="text-sm uppercase tracking-widest font-semibold text-slate-900 hover:text-emerald-700 inline-flex items-center gap-1.5 transition pb-1"
+            className="text-xs sm:text-sm uppercase tracking-widest font-semibold text-slate-900 hover:text-emerald-700 inline-flex items-center gap-1.5 transition pb-1 shrink-0"
           >
             <span>View All 10 Services</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>
 
-        {/* 4 Clean Editorial Rows */}
-        <div className="divide-y divide-slate-200 border-y border-slate-200">
-          {corePillars.map((pillar) => (
-            <div
-              key={pillar.number}
-              className="py-8 sm:py-10 group hover:bg-slate-50/80 transition-colors duration-150 px-2 sm:px-4"
-            >
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 items-baseline">
-                {/* Number */}
-                <div className="lg:col-span-1 font-mono text-base font-semibold text-slate-400 group-hover:text-emerald-700 transition">
-                  {pillar.number}
-                </div>
+        {/* Lightweight Grid (3 on mobile, 6 on desktop) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+          {featuredServices.map((service, idx) => {
+            const IconComponent = service.icon;
+            return (
+              <Link
+                key={idx}
+                to={service.link}
+                className={`group relative bg-white border border-slate-200 rounded-xl p-6 hover:border-emerald-600/70 hover:shadow-md transition-all duration-200 flex-col justify-between ${
+                  idx >= 3 ? "hidden md:flex" : "flex"
+                }`}
+              >
+                <div>
+                  <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center mb-4 group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-200 shadow-2xs">
+                    <IconComponent className="w-5 h-5" />
+                  </div>
 
-                {/* Title */}
-                <div className="lg:col-span-4">
-                  <h3 className="text-xl sm:text-2xl font-medium text-slate-900 group-hover:text-emerald-800 transition">
-                    {pillar.title}
+                  <h3 className="text-base sm:text-lg font-semibold text-slate-900 group-hover:text-emerald-700 transition-colors">
+                    {service.title}
                   </h3>
+
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mt-2">
+                    {service.desc}
+                  </p>
                 </div>
 
-                {/* Scope */}
-                <div className="lg:col-span-5 text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-                  {pillar.scope}
+                <div className="pt-4 mt-4 border-t border-slate-100 flex items-center text-xs font-semibold uppercase tracking-wider text-slate-500 group-hover:text-emerald-700 transition-colors">
+                  <span>Learn More</span>
+                  <ArrowRight className="w-3.5 h-3.5 ml-1 transition-transform group-hover:translate-x-1" />
                 </div>
+              </Link>
+            );
+          })}
+        </div>
 
-                {/* Action */}
-                <div className="lg:col-span-2 text-left lg:text-right pt-2 lg:pt-0">
-                  <Link
-                    to={pillar.link}
-                    className="text-sm font-semibold tracking-wider uppercase text-slate-900 group-hover:text-emerald-700 inline-flex items-center gap-1 transition"
-                  >
-                    <span>Details</span>
-                    <ArrowUpRight className="w-4 h-4 transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ))}
+        {/* Mobile View All Services Button */}
+        <div className="mt-8 text-center md:hidden">
+          <Link
+            to="/services"
+            className="inline-flex items-center justify-center gap-2 w-full py-3.5 px-5 bg-slate-900 text-white rounded-xl text-xs font-semibold uppercase tracking-wider active:scale-95 transition"
+          >
+            <span>View All 10 Services</span>
+            <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
       </section>
 
@@ -162,7 +185,7 @@ export default function HomePage() {
                 <span className="text-xs sm:text-sm font-semibold tracking-widest text-emerald-700 uppercase">
                   Operational Standards
                 </span>
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight text-slate-900 leading-tight">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 leading-tight">
                   Disciplined Asset Governance
                 </h2>
                 <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
@@ -237,7 +260,7 @@ export default function HomePage() {
             <span className="text-xs sm:text-sm font-semibold tracking-widest text-emerald-700 uppercase">
               Proven Track Record
             </span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 leading-tight">
               Selected Managed Assets
             </h2>
           </div>
@@ -286,7 +309,7 @@ export default function HomePage() {
             <span className="text-xs sm:text-sm font-semibold tracking-widest text-emerald-700 uppercase">
               Client Verification & Accountability
             </span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight text-slate-900 leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 leading-tight">
               Trusted by Resident Executives & Portfolio Directors
             </h2>
             <p className="text-base sm:text-lg text-slate-600 font-normal leading-relaxed">
@@ -307,8 +330,8 @@ export default function HomePage() {
                 <div className="flex items-center justify-between text-xs sm:text-sm border-b border-slate-100 pb-4">
                   <span className="font-semibold text-emerald-800 tracking-wide uppercase">
                     {idx === 0
-                      ? "Gated Estate Governance • Lagos"
-                      : "Corporate Facility Operations • Lagos & Abuja"}
+                      ? "Gated Estate Governance • Port Harcourt"
+                      : "Corporate Facility Operations • Port Harcourt & Niger Delta"}
                   </span>
                   <span className="inline-flex items-center gap-1.5 text-emerald-700 font-medium text-xs sm:text-sm">
                     <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
@@ -362,7 +385,7 @@ export default function HomePage() {
       <section className="py-20 sm:py-24 bg-slate-950 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           <div className="space-y-2 max-w-2xl">
-            <h2 className="text-3xl sm:text-4xl font-light tracking-tight text-white leading-tight">
+            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white leading-tight">
               Initiate an Estate or Facility Management Review
             </h2>
             <p className="text-base sm:text-lg text-slate-300 font-light leading-relaxed">
