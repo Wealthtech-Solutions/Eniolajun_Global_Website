@@ -162,10 +162,10 @@ export const services = [
 ];
 
 export const stats = [
-  { label: 'Properties & Facilities Managed', value: '85+' },
+  { label: 'Properties & Facilities Managed', value: '85+' },  
+  { label: 'Years of Collective Expertise', value: '15+' },
   { label: 'Client Retention Rate', value: '98%' },
-  { label: 'Rapid Response Time', value: '< 2 hrs' },
-  { label: 'Years of Collective Expertise', value: '15+' }
+  { label: 'Rapid Response Time', value: '< 2 hrs' }
 ];
 
 export const coreValues = [
