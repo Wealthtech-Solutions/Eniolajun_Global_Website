@@ -192,7 +192,7 @@ export default function TermsOfUsePage() {
               </div>
               <div className="flex items-center gap-2 text-slate-700">
                 <Phone className="w-4 h-4 text-emerald-700 shrink-0" />
-                <span>+234 703 431 6633 / +234 803 387 5611</span>
+                <span>+234 703 431 6633 / +234 913 349 3380</span>
               </div>
               <div className="flex items-center gap-2 text-slate-700">
                 <Mail className="w-4 h-4 text-emerald-700 shrink-0" />

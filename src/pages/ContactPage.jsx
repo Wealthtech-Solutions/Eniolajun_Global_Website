@@ -119,7 +119,7 @@ export default function ContactPage() {
                       +234 703 431 6633
                     </p>
                     <p className="text-xs text-slate-500 mt-0.5">
-                      Office: +234 803 387 5611
+                      Office: +234 913 349 3380
                     </p>
                     <p className="text-xs text-slate-400 mt-1">
                       Available Mon – Sat (8:00 AM – 6:00 PM)
