@@ -113,7 +113,7 @@ export default function AboutPage() {
             <div className="lg:col-span-5">
               <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=1000&q=80"
+                  src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80"
                   alt="Eniolajun Global Technical Leadership & Estate Management Team"
                   className="w-full h-[460px] object-cover"
                   loading="lazy"

@@ -162,7 +162,7 @@ export default function HomePage() {
             <div className="lg:col-span-5">
               <div className="relative overflow-hidden bg-slate-900">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80"
+                  src="https://images.unsplash.com/photo-1573496358961-3c82861ab8f4?auto=format&fit=crop&w=1200&q=80"
                   alt="Eniolajun Global Real Estate Executive"
                   className="w-full h-[460px] sm:h-[540px] object-cover"
                   loading="lazy"
@@ -302,82 +302,66 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. Testimonial / Stakeholder Endorsement (Architectural Multi-Testimonial Grid) */}
-      <section className="py-20 sm:py-28 bg-slate-50/70 border-b border-slate-200">
+      {/* 6. Testimonial / Stakeholder Endorsement */}
+      <section className="py-14 sm:py-20 bg-slate-50/70 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mb-12 sm:mb-16 space-y-3">
+          <div className="max-w-2xl mb-8 sm:mb-10 space-y-2">
             <span className="text-xs sm:text-sm font-semibold tracking-widest text-emerald-700 uppercase">
-              Client Verification & Accountability
+              Client Accountability
             </span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-slate-900 leading-tight">
-              Trusted by Resident Executives & Portfolio Directors
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-slate-900 leading-tight">
+              Trusted by Resident Executives & Property Owners
             </h2>
-            <p className="text-base sm:text-lg text-slate-600 font-normal leading-relaxed">
+            <p className="text-sm sm:text-base text-slate-600 font-normal leading-relaxed">
               Verifiable feedback from clients managing multi-unit residential
-              communities, corporate office facilities, and high-value private
-              properties across Nigeria.
+              communities and commercial facilities.
             </p>
           </div>
 
-          {/* 2 Featured Testimonials Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
-            {testimonials.slice(0, 2).map((item, idx) => (
-              <div
-                key={idx}
-                className="bg-white p-8 sm:p-10 rounded-2xl border border-slate-200 shadow-xs flex flex-col justify-between space-y-6 relative overflow-hidden"
-              >
-                {/* Top category & verified tag */}
-                <div className="flex items-center justify-between text-xs sm:text-sm border-b border-slate-100 pb-4">
-                  <span className="font-semibold text-emerald-800 tracking-wide uppercase">
-                    {idx === 0
-                      ? "Gated Estate Governance • Port Harcourt"
-                      : "Corporate Facility Operations • Port Harcourt & Niger Delta"}
-                  </span>
-                  <span className="inline-flex items-center gap-1.5 text-emerald-700 font-medium text-xs sm:text-sm">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                    <span>Verified Retainer</span>
-                  </span>
-                </div>
+          {/* Compact 3-Column Testimonial Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
+            {testimonials.map((item, idx) => {
+              const categories = [
+                "Gated Estate Governance",
+                "Commercial Asset Operations",
+                "Private Property Valuation",
+              ];
+              return (
+                <div
+                  key={idx}
+                  className="bg-white p-5 sm:p-6 rounded-xl border border-slate-200 shadow-2xs flex flex-col justify-between space-y-4 hover:border-slate-300 transition-colors"
+                >
+                  <div className="space-y-3">
+                    {/* Top category & verified tag */}
+                    <div className="flex items-center justify-between text-xs border-b border-slate-100 pb-2.5">
+                      <span className="font-semibold text-emerald-800 tracking-wide uppercase text-[11px]">
+                        {categories[idx] || "Client Endorsement"}
+                      </span>
+                      <span className="inline-flex items-center gap-1 text-emerald-700 font-medium text-[11px]">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                        <span>Verified</span>
+                      </span>
+                    </div>
 
-                {/* Quote */}
-                <blockquote className="text-lg sm:text-xl font-light leading-relaxed text-slate-800 italic">
-                  "{item.content}"
-                </blockquote>
+                    {/* Quote */}
+                    <blockquote className="text-xs sm:text-sm text-slate-700 leading-relaxed italic">
+                      "{item.content}"
+                    </blockquote>
+                  </div>
 
-                {/* Author profile (Clean Corporate Credential - No Face Photos) */}
-                <div className="pt-4 border-t border-slate-100 space-y-1">
-                  <h4 className="text-base sm:text-lg font-bold text-slate-900">
-                    {item.name}
-                  </h4>
-                  <p className="text-xs sm:text-sm text-slate-600 font-medium">
-                    {item.role}
-                  </p>
+                  {/* Author profile */}
+                  <div className="pt-3 border-t border-slate-100 space-y-0.5">
+                    <h4 className="text-sm font-bold text-slate-900 leading-snug">
+                      {item.name}
+                    </h4>
+                    <p className="text-xs text-slate-500 font-medium leading-snug">
+                      {item.role}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
-
-          {/* 3rd Endorsement Banner: Private Property Investor */}
-          {testimonials[2] && (
-            <div className="mt-8 bg-slate-900 text-white p-8 sm:p-10 rounded-2xl border border-slate-800 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
-              <div className="space-y-2 max-w-2xl">
-                <span className="text-xs sm:text-sm uppercase tracking-widest text-emerald-400 font-semibold">
-                  Private Property Modernization & Valuation
-                </span>
-                <p className="text-base sm:text-lg text-slate-200 italic font-light leading-relaxed">
-                  "{testimonials[2].content}"
-                </p>
-              </div>
-              <div className="shrink-0 pt-2 lg:pt-0 border-t lg:border-t-0 border-slate-800 space-y-1">
-                <h4 className="text-base font-bold text-white">
-                  {testimonials[2].name}
-                </h4>
-                <p className="text-xs sm:text-sm text-slate-400 font-medium">
-                  {testimonials[2].role}
-                </p>
-              </div>
-            </div>
-          )}
         </div>
       </section>
 

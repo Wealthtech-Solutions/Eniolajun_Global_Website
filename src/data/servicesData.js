@@ -27,7 +27,7 @@ export const services = [
       'Routine property inspections & condition audits',
       'Prompt tenant query resolution & tenancy record-keeping'
     ],
-    image: 'https://images.unsplash.com/photo-1560185009-dddeb820c7b7?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?auto=format&fit=crop&w=1000&q=80',
     icon: 'FileText',
     category: 'Estate & Property'
   },
@@ -91,7 +91,7 @@ export const services = [
       'Plumbing pipelines, water pumps & drainage clearing',
       'Carpentry, masonry, painting & waterproofing'
     ],
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1000&q=80',
     icon: 'Wrench',
     category: 'Maintenance & Engineering'
   },
@@ -107,7 +107,7 @@ export const services = [
       'Automated irrigation system management & repairs',
       'Eco-friendly weed control & exterior pest suppression'
     ],
-    image: 'https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1000&q=80',
     icon: 'Trees',
     category: 'Maintenance & Engineering'
   },

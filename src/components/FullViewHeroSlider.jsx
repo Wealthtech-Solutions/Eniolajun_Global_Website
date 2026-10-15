@@ -17,7 +17,7 @@ const estateSlides = [
     location: "Trans-Amadi, Port Harcourt",
     type: "Corporate Office Tower",
     image:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const estateSlides = [
     location: "Peter Odili Road, Port Harcourt",
     type: "Luxury Villa Refurbishment",
     image:
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1920&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1920&q=80",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const estateSlides = [
     location: "Golf Estate, Port Harcourt",
     type: "Grounds & Landscaped Enclave",
     image:
-      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1920&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1920&q=80",
   },
   {
     id: 5,
@@ -41,7 +41,7 @@ const estateSlides = [
     location: "Victoria Island, Lagos",
     type: "Residential Utilities Operations",
     image:
-      "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?auto=format&fit=crop&w=1920&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80",
   },
 ];
 

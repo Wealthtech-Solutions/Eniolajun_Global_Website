@@ -26,7 +26,7 @@ const estateSlides = [
     scope: "8 Floors • Total Facilities Management",
     tag: "Commercial Facility",
     image:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
     stat: "100% Power & Utilities Uptime",
   },
   {
@@ -36,7 +36,7 @@ const estateSlides = [
     scope: "Luxury Refurbishment & Tenancy Oversight",
     tag: "Turnkey Refurbishment",
     image:
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
     stat: "+35% Rental Value Growth",
   },
   {
@@ -46,7 +46,7 @@ const estateSlides = [
     scope: "42 Units • Grounds & Landscaping Care",
     tag: "Grounds & Landscaping",
     image:
-      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
     stat: "Zero Stormwater Drainage Issues",
   },
   {
@@ -56,7 +56,7 @@ const estateSlides = [
     scope: "50 Duplex Units • Utilities & Security Operations",
     tag: "Utilities Operations",
     image:
-      "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
     stat: "24/7 Monitored Access Control",
   },
 ];

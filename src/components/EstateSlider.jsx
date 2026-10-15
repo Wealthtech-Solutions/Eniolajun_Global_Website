@@ -12,7 +12,7 @@ const estateSlides = [
   {
     id: 1,
     title: "Crown Crest Luxury Enclave",
-    location: "Lekki Phase 1, Lagos",
+    location: "Old GRA, Port Harcourt",
     scope: "64 Units • Full Estate Administration & 24/7 Access Control",
     description:
       "Premier gated residential estate with centralized water treatment, automated gate security, and comprehensive service charge accounting.",
@@ -23,45 +23,45 @@ const estateSlides = [
   {
     id: 2,
     title: "Meridian Commercial Plaza",
-    location: "Victoria Island, Lagos",
+    location: "Trans-Amadi, Port Harcourt",
     scope: "8 Floors • Total Facilities Management & Power Logistics",
     description:
       "Corporate office tower featuring synchronized backup generator plants, central HVAC chiller systems, and round-the-clock facility maintenance.",
     image:
-      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
     tag: "Commercial Facility",
   },
   {
     id: 3,
     title: "Oakwood Residences & Private Villas",
-    location: "Ikoyi, Lagos",
+    location: "Peter Odili Road, Port Harcourt",
     scope: "Luxury Refurbishment & Tenancy Administration",
     description:
       "Full-scale architectural modernization, structural waterproofing, facade restoration, and high-yield tenancy management.",
     image:
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
     tag: "Turnkey Refurbishment",
   },
   {
     id: 4,
     title: "Sovereign Heights Gated Community",
-    location: "Maitama, Abuja",
+    location: "Golf Estate, Port Harcourt",
     scope: "42 Units • Grounds, Landscaping & Drainage Upkeep",
     description:
       "Exemplary horticultural maintenance, manicured lawns, automated perimeter irrigation, and seasonal stormwater drainage management.",
     image:
-      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
     tag: "Grounds & Landscaping",
   },
   {
     id: 5,
     title: "Emerald Bay Executive Court",
-    location: "Ajah Corridor, Lagos",
+    location: "Victoria Island, Lagos",
     scope: "50 Duplex Units • Utilities & Operations Oversight",
     description:
       "Dedicated diesel quality management, uninterrupted water treatment operations, security patrol scheduling, and proactive preventative repairs.",
     image:
-      "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
     tag: "Utilities & Operations",
   },
 ];

@@ -7,7 +7,7 @@ export const projects = [
     scope: 'Complete estate governance, 24/7 security oversight, water plant maintenance, and service charge administration for 64 luxury units.',
     duration: 'Ongoing Contract (3 Years)',
     impact: 'Achieved 99.4% service charge collection rate and 100% operational uptime for water and gate security systems.',
-    image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1000&q=80',
     featured: true
   },
   {
@@ -18,7 +18,7 @@ export const projects = [
     scope: 'Integrated total facilities management, dual 800kVA generator servicing, HVAC central chiller maintenance, and janitorial services for corporate tenants.',
     duration: 'Ongoing Contract',
     impact: 'Reduced generator diesel consumption by 18% through optimized load scheduling and smart energy metering.',
-    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80',
     featured: true
   },
   {
@@ -29,7 +29,7 @@ export const projects = [
     scope: 'Pre-purchase structural snagging audit, complete exterior facade repainting, plumbing re-piping, and luxury modern kitchen remodels.',
     duration: '6 Months Project',
     impact: 'Increased open market rental value by 35% following comprehensive modernization and structural overhaul.',
-    image: 'https://images.unsplash.com/photo-1586105251261-72a756497a11?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1000&q=80',
     featured: true
   },
   {
@@ -62,7 +62,7 @@ export const projects = [
     scope: 'Comprehensive capital valuation, rental yields appraisal, and structural audit for bank collateral documentation.',
     duration: 'Completed in 10 Days',
     impact: 'Provided institutional-grade appraisal report accepted without query by top-tier commercial banking syndicates.',
-    image: 'https://images.unsplash.com/photo-1591955506264-3f5a6834570a?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=1000&q=80',
     featured: false
   }
 ];
@@ -72,19 +72,19 @@ export const testimonials = [
     name: 'Engr. Babatunde Adeleke',
     role: 'Chairman, Crown Crest Residents Association • Old GRA, Port Harcourt',
     content: 'Eniolajun Global transformed our estate in Port Harcourt. Before engaging them, power coordination and service charge collection were constant headaches. Today, our estate runs with clockwork precision.',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80'
+    avatar: 'https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&w=300&q=80'
   },
   {
     name: 'Mrs. Folashade Alabi',
     role: 'Managing Director, Horizon Asset Holdings',
     content: 'Their property valuation and tenancy administration are second to none. We trust Eniolajun Global with our commercial portfolios across Port Harcourt and Lagos without hesitation.',
-    avatar: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=200&q=80'
+    avatar: 'https://images.unsplash.com/photo-1573497019418-b400bb3ab074?auto=format&fit=crop&w=300&q=80'
   },
   {
     name: 'Dr. Chukwuma Obi',
     role: 'Private Property Investor • Peter Odili Road Corridor',
     content: 'The refurbishment and inspection work they carried out on my Peter Odili Road property added tremendous capital value. Their team is honest, thorough, and highly responsive.',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80'
+    avatar: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=300&q=80'
   }
 ];
 
