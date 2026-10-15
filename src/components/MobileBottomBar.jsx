@@ -9,16 +9,16 @@ export default function MobileBottomBar() {
   return (
     <aside
       aria-label="Mobile Quick Actions"
-      className="md:hidden fixed bottom-0 inset-x-0 z-40 bg-slate-950/95 backdrop-blur-md border-t border-slate-800/80 px-4 py-2.5 pb-[max(0.625rem,env(safe-area-inset-bottom))]"
+      className="md:hidden fixed bottom-0 inset-x-0 z-40 bg-slate-950/95 backdrop-blur-md border-t border-slate-800/80 px-3 py-1.5 pb-[max(0.375rem,env(safe-area-inset-bottom))] shadow-lg"
     >
-      <div className="grid grid-cols-3 gap-2 max-w-md mx-auto">
+      <div className="grid grid-cols-3 gap-1.5 max-w-sm mx-auto">
         {/* Instant Call */}
         <a
           href="tel:+2347034316633"
-          className="flex flex-col items-center justify-center py-2 px-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-800 active:scale-95 transition"
+          className="flex flex-col items-center justify-center py-1.5 px-2 rounded-lg bg-slate-900/90 hover:bg-slate-800 text-slate-200 border border-slate-800 active:scale-95 transition"
         >
-          <Phone className="w-5 h-5 text-emerald-400 mb-1" />
-          <span className="text-xs font-semibold tracking-tight">
+          <Phone className="w-4 h-4 text-emerald-400 mb-0.5" />
+          <span className="text-[11px] font-semibold tracking-tight leading-tight">
             Call Desk
           </span>
         </a>
@@ -28,19 +28,21 @@ export default function MobileBottomBar() {
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col items-center justify-center py-2 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-medium active:scale-95 transition shadow-sm"
+          className="flex flex-col items-center justify-center py-1.5 px-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-medium active:scale-95 transition shadow-xs"
         >
-          <MessageCircle className="w-5 h-5 mb-1" />
-          <span className="text-xs font-semibold tracking-tight">WhatsApp</span>
+          <MessageCircle className="w-4 h-4 mb-0.5" />
+          <span className="text-[11px] font-semibold tracking-tight leading-tight">
+            WhatsApp
+          </span>
         </a>
 
         {/* Quick Quote / Contact */}
         <Link
           to="/contact"
-          className="flex flex-col items-center justify-center py-2 px-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 border border-slate-800 active:scale-95 transition"
+          className="flex flex-col items-center justify-center py-1.5 px-2 rounded-lg bg-slate-900/90 hover:bg-slate-800 text-slate-200 border border-slate-800 active:scale-95 transition"
         >
-          <FileText className="w-5 h-5 text-emerald-400 mb-1" />
-          <span className="text-xs font-semibold tracking-tight">
+          <FileText className="w-4 h-4 text-emerald-400 mb-0.5" />
+          <span className="text-[11px] font-semibold tracking-tight leading-tight">
             Get Quote
           </span>
         </Link>

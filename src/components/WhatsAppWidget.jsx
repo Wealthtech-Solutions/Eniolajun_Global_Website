@@ -19,7 +19,7 @@ export default function WhatsAppWidget() {
   };
 
   return (
-    <div className="fixed bottom-20 right-4 md:bottom-6 md:right-6 z-50 flex flex-col items-end">
+    <div className="hidden md:flex fixed bottom-6 right-6 z-50 flex-col items-end">
       {isOpen && (
         <div className="mb-3 w-[calc(100vw-2rem)] max-w-sm sm:w-96 rounded-2xl bg-white shadow-2xl border border-slate-200 overflow-hidden animate-in fade-in slide-in-from-bottom-3 duration-200">
           <div className="bg-slate-900 p-4 text-white flex items-center justify-between">

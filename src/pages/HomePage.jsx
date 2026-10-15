@@ -44,17 +44,23 @@ export default function HomePage() {
 
       {/* 2. Architectural Metric Strip (Large Clear Digits) */}
       <section className="border-b border-slate-200 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-y md:divide-y-0 md:divide-x divide-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+          <div className="grid grid-cols-2 md:grid-cols-4">
             {stats.map((item, idx) => (
               <div
                 key={idx}
-                className={`${idx !== 0 ? "pt-6 md:pt-0 md:pl-8" : ""}`}
+                className={`
+                  py-5 md:py-0
+                  ${idx % 2 === 0 ? "pr-4 sm:pr-8 border-r border-slate-200" : "pl-4 sm:pl-8"}
+                  ${idx < 2 ? "border-b border-slate-200 md:border-b-0" : ""}
+                  ${idx !== 0 ? "md:border-l md:border-slate-200 md:pl-8" : "md:pl-0"}
+                  md:border-r-0
+                `}
               >
-                <p className="text-4xl sm:text-5xl font-light tracking-tight text-slate-900">
+                <p className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight text-slate-900">
                   {item.value}
                 </p>
-                <p className="text-xs sm:text-sm uppercase tracking-wider text-slate-600 font-semibold mt-1.5">
+                <p className="text-[11px] sm:text-xs md:text-sm uppercase tracking-wider text-slate-600 font-semibold mt-1.5 leading-snug">
                   {item.label}
                 </p>
               </div>
