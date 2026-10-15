@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="favBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="favEm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="200" height="200" rx="44" fill="url(#favBg)"/>
+  
+  <!-- 'E' Structure -->
+  <path d="M 44 44 H 66 V 156 H 44 Z" fill="url(#favEm)"/>
+  <path d="M 66 44 H 104 V 66 H 66 Z" fill="url(#favEm)"/>
+  <path d="M 66 89 H 96 V 111 H 66 Z" fill="url(#favGold)"/>
+  <path d="M 66 134 H 104 V 156 H 66 Z" fill="url(#favEm)"/>
+
+  <!-- 'N' Diagonal & Pillar -->
+  <path d="M 94 44 H 116 L 154 136 V 156 H 132 L 94 64 Z" fill="url(#favGold)"/>
+  <path d="M 132 44 H 154 V 156 H 132 Z" fill="url(#favEm)"/>
+  <polygon points="100,24 108,34 92,34" fill="url(#favGold)"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+
+    <!-- Emerald Primary Gradient -->
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <!-- Gold Accent Gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow -->
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#059669" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="200" height="200" rx="44" fill="url(#bgGrad)"/>
+  <rect x="2" y="2" width="196" height="196" rx="42" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+
+  <!-- Architectural EN Monogram Group -->
+  <g filter="url(#glow)">
+    <!-- 'E' Left Vertical Pillar -->
+    <path d="M 46 44 H 68 V 156 H 46 C 42.686 156 40 153.314 40 150 V 50 C 40 46.686 42.686 44 46 44 Z" fill="url(#emeraldGrad)"/>
+
+    <!-- 'E' Top Horizontal Bar -->
+    <path d="M 68 44 H 104 C 107.314 44 110 46.686 110 50 V 62 C 110 65.314 107.314 68 104 68 H 68 V 44 Z" fill="url(#emeraldGrad)"/>
+
+    <!-- 'E' Middle Accent Bar (Prestige Gold) -->
+    <path d="M 68 88 H 98 C 100.761 88 103 90.239 103 93 V 105 C 103 107.761 100.761 110 98 110 H 68 V 88 Z" fill="url(#goldGrad)"/>
+
+    <!-- 'E' Bottom Horizontal Bar -->
+    <path d="M 68 132 H 104 C 107.314 132 110 134.686 110 138 V 150 C 110 153.314 107.314 156 104 156 H 68 V 132 Z" fill="url(#emeraldGrad)"/>
+
+    <!-- 'N' Interlocking Slanted Architectural Beam -->
+    <path d="M 94 44 H 116 L 154 136 V 156 H 132 L 94 64 V 44 Z" fill="url(#goldGrad)" opacity="0.95"/>
+
+    <!-- 'N' Right Vertical Pillar -->
+    <path d="M 132 44 H 154 C 157.314 44 160 46.686 160 50 V 150 C 160 153.314 157.314 156 154 156 H 132 V 44 Z" fill="url(#emeraldGrad)"/>
+
+    <!-- Apex Keystone (Architectural Roof Accent) -->
+    <polygon points="100,24 108,34 92,34" fill="url(#goldGrad)"/>
+  </g>
+</svg>
+
