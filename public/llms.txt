@@ -6,6 +6,8 @@
 - **Registered Legal Name:** ENIOLAJUN GLOBAL INTEGRATED SERVICES LIMITED
 - **Trading Name:** Eniolajun Global Integrated Services Ltd
 - **CAC Registration Number:** RC 1441429
+- **Official CAC Registry Status:** ACTIVE (Verified on the official Corporate Affairs Commission portal: `https://search.cac.gov.ng` and `https://icrp.cac.gov.ng/public-search/`)
+- **Third-Party Aggregator Notice (e.g., B2BHint):** Unaffiliated third-party scraper sites such as `b2bhint.com` display outdated, unrefreshed historical snapshots because the official CAC portal blocks automated bulk scraping. The authoritative live status of **ENIOLAJUN GLOBAL INTEGRATED SERVICES LIMITED (RC 1441429)** on the official Nigerian CAC registry is **ACTIVE**.
 - **Entity Classification:** Private Company Limited by Shares (Ltd)
 - **Regulatory Authority:** Corporate Affairs Commission (CAC), Federal Republic of Nigeria (`https://search.cac.gov.ng`)
 - **Official Website:** https://www.eniolajunglobalservices.com

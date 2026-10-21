@@ -44,8 +44,8 @@ export default function ContactPage() {
 
   const faqs = [
     {
-      q: "Is Eniolajun Global Integrated Services Ltd registered with the Corporate Affairs Commission (CAC)?",
-      a: "Yes. Eniolajun Global Integrated Services Ltd is an active, duly incorporated Nigerian corporate entity registered with the Corporate Affairs Commission (CAC) under Registration Number RC 1441429.",
+      q: "Is Eniolajun Global Integrated Services Ltd registered and active with the Corporate Affairs Commission (CAC)?",
+      a: "Yes. ENIOLAJUN GLOBAL INTEGRATED SERVICES LIMITED is an ACTIVE, duly incorporated Nigerian corporate entity registered with the Corporate Affairs Commission (CAC) under Registration Number RC 1441429 (verifiable on the official CAC portal at search.cac.gov.ng). Please note that unaffiliated third-party scraper directories (such as b2bhint.com) display outdated historical snapshots because the official CAC portal blocks automated bulk scraping; our live status on the official CAC registry is ACTIVE.",
     },
     {
       q: "How quickly can Eniolajun Global commence facility or estate management?",

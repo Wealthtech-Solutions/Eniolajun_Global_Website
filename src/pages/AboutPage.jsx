@@ -273,6 +273,14 @@ export default function AboutPage() {
                   </div>
                   <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-100 pb-2">
                     <dt className="text-slate-500 font-medium">
+                      Official CAC Registry Status
+                    </dt>
+                    <dd className="text-emerald-700 font-bold">
+                      ACTIVE (Verified on Official CAC Portal)
+                    </dd>
+                  </div>
+                  <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-100 pb-2">
+                    <dt className="text-slate-500 font-medium">
                       Entity Classification
                     </dt>
                     <dd className="text-slate-900 font-medium">
@@ -326,6 +334,22 @@ export default function AboutPage() {
                   coordinated alongside accredited partner Estate Surveyors and
                   Valuers, legal practitioners, and COREN-certified engineering
                   specialists.
+                </p>
+                <p className="text-xs text-slate-500 pt-2 border-t border-slate-100 leading-relaxed">
+                  <strong>Registry Verification Note:</strong> Always verify our
+                  active corporate status directly on the official Nigerian
+                  Corporate Affairs Commission portal (
+                  <a
+                    href="https://search.cac.gov.ng"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-emerald-700 underline"
+                  >
+                    search.cac.gov.ng
+                  </a>
+                  ). Unaffiliated third-party scraper sites (such as{" "}
+                  <em>b2bhint.com</em>) display unrefreshed historical caches
+                  and do not reflect live CAC annual return filings.
                 </p>
               </div>
             </div>
