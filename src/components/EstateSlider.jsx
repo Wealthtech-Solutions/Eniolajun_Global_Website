@@ -16,8 +16,7 @@ const estateSlides = [
     scope: "64 Units • Full Estate Administration & 24/7 Access Control",
     description:
       "Premier gated residential estate with centralized water treatment, automated gate security, and comprehensive service charge accounting.",
-    image:
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/portfolio/crown-crest-residential-estate-ph.jpg",
     tag: "Residential Estate",
   },
   {
@@ -27,8 +26,7 @@ const estateSlides = [
     scope: "8 Floors • Total Facilities Management & Power Logistics",
     description:
       "Corporate office tower featuring synchronized backup generator plants, central HVAC chiller systems, and round-the-clock facility maintenance.",
-    image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/portfolio/meridian-commercial-complex-ph.jpg",
     tag: "Commercial Facility",
   },
   {
@@ -38,8 +36,7 @@ const estateSlides = [
     scope: "Luxury Refurbishment & Tenancy Administration",
     description:
       "Full-scale architectural modernization, structural waterproofing, facade restoration, and high-yield tenancy management.",
-    image:
-      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/portfolio/oakwood-residences-refurbishment-ph.jpg",
     tag: "Turnkey Refurbishment",
   },
   {
@@ -49,8 +46,7 @@ const estateSlides = [
     scope: "42 Units • Grounds, Landscaping & Drainage Upkeep",
     description:
       "Exemplary horticultural maintenance, manicured lawns, automated perimeter irrigation, and seasonal stormwater drainage management.",
-    image:
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/portfolio/sovereign-heights-landscaping-ph.jpg",
     tag: "Grounds & Landscaping",
   },
   {
@@ -60,8 +56,7 @@ const estateSlides = [
     scope: "50 Duplex Units • Utilities & Operations Oversight",
     description:
       "Dedicated diesel quality management, uninterrupted water treatment operations, security patrol scheduling, and proactive preventative repairs.",
-    image:
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
+    image: "/images/services/property-sales-acquisition.jpg",
     tag: "Utilities & Operations",
   },
 ];

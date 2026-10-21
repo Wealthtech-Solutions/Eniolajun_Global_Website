@@ -4,10 +4,10 @@ export const projects = [
     title: 'Crown Crest Residential Estate',
     category: 'Estate Management',
     location: 'Old GRA, Port Harcourt',
-    scope: 'Complete estate governance, 24/7 security oversight, water plant maintenance, and service charge administration for 64 luxury units.',
-    duration: 'Ongoing Contract (3 Years)',
-    impact: 'Achieved 99.4% service charge collection rate and 100% operational uptime for water and gate security systems.',
-    image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1000&q=80',
+    scope: 'Complete estate governance, 24/7 security oversight, water plant maintenance, and service charge administration for a multi-unit residential community.',
+    duration: 'Multi-Year Management Mandate',
+    impact: 'Streamlined transparent service charge reconciliation and maintained continuous operational uptime for water and gate security systems.',
+    image: '/images/portfolio/crown-crest-residential-estate-ph.jpg',
     featured: true
   },
   {
@@ -15,10 +15,10 @@ export const projects = [
     title: 'Meridian Commercial Complex',
     category: 'Facility Operations',
     location: 'Trans-Amadi, Port Harcourt',
-    scope: 'Integrated total facilities management, dual 800kVA generator servicing, HVAC central chiller maintenance, and janitorial services for corporate tenants.',
-    duration: 'Ongoing Contract',
-    impact: 'Reduced generator diesel consumption by 18% through optimized load scheduling and smart energy metering.',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=80',
+    scope: 'Integrated total facilities management, backup generator servicing, HVAC central chiller maintenance, and janitorial services for corporate tenants.',
+    duration: 'Ongoing Facility Mandate',
+    impact: 'Optimized generator load scheduling and smart energy sub-metering to lower operating fuel overhead for commercial occupants.',
+    image: '/images/portfolio/meridian-commercial-complex-ph.jpg',
     featured: true
   },
   {
@@ -26,10 +26,10 @@ export const projects = [
     title: 'Oakwood Residences Refurbishment',
     category: 'Property Inspection & Refurbishment',
     location: 'Peter Odili Road, Port Harcourt',
-    scope: 'Pre-purchase structural snagging audit, complete exterior facade repainting, plumbing re-piping, and luxury modern kitchen remodels.',
-    duration: '6 Months Project',
-    impact: 'Increased open market rental value by 35% following comprehensive modernization and structural overhaul.',
-    image: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1000&q=80',
+    scope: 'Pre-purchase structural snagging audit, complete exterior facade repainting, plumbing re-piping, and modern interior kitchen remodels.',
+    duration: '6-Month Turnkey Refurbishment',
+    impact: 'Restored structural integrity, resolved dampness ingress, and positioned the asset for premium residential leasing.',
+    image: '/images/portfolio/oakwood-residences-refurbishment-ph.jpg',
     featured: true
   },
   {
@@ -38,9 +38,9 @@ export const projects = [
     category: 'Maintenance & Landscaping',
     location: 'Golf Estate, Port Harcourt',
     scope: 'Landscape redesign, automated irrigation overhaul, decorative lawn turfing, and perimeter stormwater drainage maintenance.',
-    duration: 'Annual Retainer',
-    impact: 'Eliminated seasonal waterlogging and elevated the estate curb appeal into an award-winning residential enclave.',
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1000&q=80',
+    duration: 'Annual Maintenance Retainer',
+    impact: 'Mitigated seasonal waterlogging and elevated residential curb appeal across common estate grounds.',
+    image: '/images/portfolio/sovereign-heights-landscaping-ph.jpg',
     featured: false
   },
   {
@@ -48,21 +48,21 @@ export const projects = [
     title: 'Industrial Logistics Hub Power & Utilities',
     category: 'Facility Operations',
     location: 'Trans-Amadi Industrial Layout, Port Harcourt',
-    scope: 'Installation and commissioning of 800kVA backup power system, industrial water treatment plant, and CCTV monitoring center.',
-    duration: 'Turnkey Installation',
-    impact: 'Zero unplanned downtime during mission-critical logistics handling and verified safety certification.',
-    image: 'https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1000&q=80',
+    scope: 'Coordination and commissioning of backup power distribution, industrial water treatment filtration, and perimeter CCTV monitoring.',
+    duration: 'Turnkey Facility Coordination',
+    impact: 'Established reliable utility redundancy and HSE-compliant operational protocols for daily logistics operations.',
+    image: '/images/portfolio/industrial-logistics-hub-utilities-ph.jpg',
     featured: false
   },
   {
     id: 6,
-    title: 'Apex Prime Commercial Complex Valuation',
+    title: 'Apex Prime Commercial Complex Advisory',
     category: 'Consultancy & Valuation',
     location: 'Victoria Island, Lagos',
-    scope: 'Comprehensive capital valuation, rental yields appraisal, and structural audit for bank collateral documentation.',
-    duration: 'Completed in 10 Days',
-    impact: 'Provided institutional-grade appraisal report accepted without query by top-tier commercial banking syndicates.',
-    image: 'https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=1000&q=80',
+    scope: 'Market feasibility assessment, rental yield analysis, and physical condition audit coordinated with accredited valuation surveyors.',
+    duration: 'Advisory Engagement',
+    impact: 'Delivered comprehensive market-grounded property condition and yield documentation for institutional asset decision-making.',
+    image: '/images/portfolio/apex-prime-commercial-valuation-lagos.jpg',
     featured: false
   }
 ];
@@ -70,21 +70,17 @@ export const projects = [
 export const testimonials = [
   {
     name: 'Engr. Babatunde Adeleke',
-    role: 'Chairman, Crown Crest Residents Association • Old GRA, Port Harcourt',
-    content: 'Eniolajun Global transformed our estate in Port Harcourt. Before engaging them, power coordination and service charge collection were constant headaches. Today, our estate runs with clockwork precision.',
-    avatar: 'https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&w=300&q=80'
+    role: 'Resident Association Executive • Old GRA, Port Harcourt',
+    content: 'Eniolajun Global brought structure to our estate operations in Port Harcourt. Power coordination, vendor supervision, and monthly service charge reporting are handled with clear accountability.'
   },
   {
     name: 'Mrs. Folashade Alabi',
-    role: 'Managing Director, Horizon Asset Holdings',
-    content: 'Their property valuation and tenancy administration are second to none. We trust Eniolajun Global with our commercial portfolios across Port Harcourt and Lagos without hesitation.',
-    avatar: 'https://images.unsplash.com/photo-1573497019418-b400bb3ab074?auto=format&fit=crop&w=300&q=80'
+    role: 'Commercial Property Portfolio Director • Lagos & Port Harcourt',
+    content: 'Their property administration and tenancy coordination are thorough and dependable. They keep our commercial facilities well-maintained and provide timely operational updates.'
   },
   {
     name: 'Dr. Chukwuma Obi',
-    role: 'Private Property Investor • Peter Odili Road Corridor',
-    content: 'The refurbishment and inspection work they carried out on my Peter Odili Road property added tremendous capital value. Their team is honest, thorough, and highly responsive.',
-    avatar: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=300&q=80'
+    role: 'Private Property Owner • Peter Odili Road Corridor, Port Harcourt',
+    content: 'The refurbishment and pre-lease inspection work they coordinated on my Peter Odili Road property resolved long-standing maintenance issues. Their team is honest, thorough, and responsive.'
   }
 ];
-

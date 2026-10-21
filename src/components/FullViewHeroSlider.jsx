@@ -8,40 +8,35 @@ const estateSlides = [
     title: "Crown Crest Luxury Enclave",
     location: "Old GRA, Port Harcourt",
     type: "Gated Residential Community",
-    image:
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1920&q=80",
+    image: "/images/portfolio/crown-crest-residential-estate-ph.jpg",
   },
   {
     id: 2,
     title: "Meridian Commercial Complex",
     location: "Trans-Amadi, Port Harcourt",
     type: "Corporate Office Tower",
-    image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80",
+    image: "/images/portfolio/meridian-commercial-complex-ph.jpg",
   },
   {
     id: 3,
     title: "Oakwood Residences",
     location: "Peter Odili Road, Port Harcourt",
     type: "Luxury Villa Refurbishment",
-    image:
-      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1920&q=80",
+    image: "/images/portfolio/oakwood-residences-refurbishment-ph.jpg",
   },
   {
     id: 4,
     title: "Sovereign Heights Enclave",
     location: "Golf Estate, Port Harcourt",
     type: "Grounds & Landscaped Enclave",
-    image:
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1920&q=80",
+    image: "/images/portfolio/sovereign-heights-landscaping-ph.jpg",
   },
   {
     id: 5,
     title: "Emerald Metropolitan Court",
     location: "Victoria Island, Lagos",
     type: "Residential Utilities Operations",
-    image:
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80",
+    image: "/images/services/property-sales-acquisition.jpg",
   },
 ];
 

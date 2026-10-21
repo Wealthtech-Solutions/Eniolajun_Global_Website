@@ -162,8 +162,8 @@ export default function HomePage() {
             <div className="lg:col-span-5">
               <div className="relative overflow-hidden bg-slate-900">
                 <img
-                  src="https://images.unsplash.com/photo-1573496358961-3c82861ab8f4?auto=format&fit=crop&w=1200&q=80"
-                  alt="Eniolajun Global Real Estate Executive"
+                  src="/images/corporate/eniolajun-operations-director.jpg"
+                  alt="Eniolajun Global Real Estate & Facility Management Operations"
                   className="w-full h-[460px] sm:h-[540px] object-cover"
                   loading="lazy"
                 />
@@ -172,8 +172,9 @@ export default function HomePage() {
                     Leadership on the Ground
                   </p>
                   <p className="text-sm sm:text-base font-normal text-slate-200 mt-1.5 leading-snug">
-                    Direct oversight by certified Nigerian surveyors, facility
-                    engineers, and tenant administrators.
+                    Direct operational oversight coordinated with accredited
+                    Nigerian valuation surveyors, facility engineers, and tenant
+                    administrators.
                   </p>
                 </div>
               </div>

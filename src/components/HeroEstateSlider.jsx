@@ -15,9 +15,8 @@ const estateSlides = [
     location: "Old GRA, Port Harcourt",
     scope: "64 Units • Full Estate Administration",
     tag: "Residential Estate",
-    image:
-      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
-    stat: "99.4% Service Charge Compliance",
+    image: "/images/portfolio/crown-crest-residential-estate-ph.jpg",
+    stat: "Structured Service Charge Governance",
   },
   {
     id: 2,
@@ -25,9 +24,8 @@ const estateSlides = [
     location: "Trans-Amadi, Port Harcourt",
     scope: "8 Floors • Total Facilities Management",
     tag: "Commercial Facility",
-    image:
-      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
-    stat: "100% Power & Utilities Uptime",
+    image: "/images/portfolio/meridian-commercial-complex-ph.jpg",
+    stat: "Continuous Power & Utilities Oversight",
   },
   {
     id: 3,
@@ -35,9 +33,8 @@ const estateSlides = [
     location: "Peter Odili Road, Port Harcourt",
     scope: "Luxury Refurbishment & Tenancy Oversight",
     tag: "Turnkey Refurbishment",
-    image:
-      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
-    stat: "+35% Rental Value Growth",
+    image: "/images/portfolio/oakwood-residences-refurbishment-ph.jpg",
+    stat: "Comprehensive Structural Modernization",
   },
   {
     id: 4,
@@ -45,9 +42,8 @@ const estateSlides = [
     location: "Golf Estate, Port Harcourt",
     scope: "42 Units • Grounds & Landscaping Care",
     tag: "Grounds & Landscaping",
-    image:
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
-    stat: "Zero Stormwater Drainage Issues",
+    image: "/images/portfolio/sovereign-heights-landscaping-ph.jpg",
+    stat: "Proactive Stormwater Drainage Care",
   },
   {
     id: 5,
@@ -55,8 +51,7 @@ const estateSlides = [
     location: "Victoria Island, Lagos",
     scope: "50 Duplex Units • Utilities & Security Operations",
     tag: "Utilities Operations",
-    image:
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/services/property-sales-acquisition.jpg",
     stat: "24/7 Monitored Access Control",
   },
 ];

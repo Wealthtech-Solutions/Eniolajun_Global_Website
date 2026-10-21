@@ -67,11 +67,14 @@ export default function AboutPage() {
                   industrial facilities.
                 </p>
                 <p>
-                  Our multidisciplinary team unites certified estate surveyors,
-                  facility managers, registered mechanical/electrical engineers,
-                  and seasoned tenant relations professionals. Every project is
-                  executed with strict adherence to industry regulations, health
-                  and safety standards, and transparent reporting.
+                  Our multidisciplinary delivery model brings together dedicated
+                  property administrators, facility managers, and tenant
+                  relations professionals, working alongside accredited partner
+                  estate surveyors, legal practitioners, and registered
+                  mechanical/electrical (MEP) engineers. Every mandate is
+                  executed with strict adherence to Nigerian regulatory
+                  frameworks, health and safety standards, and transparent
+                  financial reporting.
                 </p>
               </div>
 
@@ -109,7 +112,7 @@ export default function AboutPage() {
             <div className="lg:col-span-5">
               <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80"
+                  src="/images/corporate/eniolajun-technical-leadership-team.jpg"
                   alt="Eniolajun Global Technical Leadership & Estate Management Team"
                   className="w-full h-[460px] object-cover"
                   loading="lazy"
@@ -224,6 +227,107 @@ export default function AboutPage() {
                 reconciliation statements, and procurement receipts are open for
                 audit by landlords and resident executives.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Corporate Registry & Statutory Verification Section */}
+      <section className="py-16 bg-slate-50 border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mb-10 space-y-2">
+            <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-emerald-700 bg-emerald-100/70 px-3.5 py-1.5 rounded-full">
+              Statutory & Corporate Verification
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
+              Official Corporate Registry Profile
+            </h2>
+            <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
+              Public corporate registration and operational governance details
+              for institutional due diligence, vendor onboarding, and regulatory
+              verification.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs">
+            <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-200">
+              <div className="p-6 sm:p-8 space-y-4">
+                <h3 className="text-base font-bold text-slate-900 uppercase tracking-wider">
+                  CAC Incorporation Particulars
+                </h3>
+                <dl className="space-y-3 text-sm">
+                  <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-100 pb-2">
+                    <dt className="text-slate-500 font-medium">
+                      {" "}
+                      Registered Legal Name
+                    </dt>
+                    <dd className="text-slate-900 font-semibold">
+                      ENIOLAJUN GLOBAL INTEGRATED SERVICES LIMITED
+                    </dd>
+                  </div>
+                  <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-100 pb-2">
+                    <dt className="text-slate-500 font-medium">
+                      CAC Registration Number
+                    </dt>
+                    <dd className="text-emerald-700 font-bold">RC 1441429</dd>
+                  </div>
+                  <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-100 pb-2">
+                    <dt className="text-slate-500 font-medium">
+                      Entity Classification
+                    </dt>
+                    <dd className="text-slate-900 font-medium">
+                      Private Company Limited by Shares (Ltd)
+                    </dd>
+                  </div>
+                  <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-100 pb-2">
+                    <dt className="text-slate-500 font-medium">
+                      Regulatory Authority
+                    </dt>
+                    <dd className="text-slate-900 font-medium">
+                      Corporate Affairs Commission (CAC), Nigeria
+                    </dd>
+                  </div>
+                  <div className="flex flex-col sm:flex-row sm:justify-between">
+                    <dt className="text-slate-500 font-medium">
+                      Public Registry Portal
+                    </dt>
+                    <dd>
+                      <a
+                        href="https://search.cac.gov.ng"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-emerald-700 hover:underline font-semibold"
+                      >
+                        search.cac.gov.ng (Search: 1441429) →
+                      </a>
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+
+              <div className="p-6 sm:p-8 space-y-4">
+                <h3 className="text-base font-bold text-slate-900 uppercase tracking-wider">
+                  Professional Delivery & Compliance Framework
+                </h3>
+                <p className="text-sm text-slate-700 leading-relaxed">
+                  Eniolajun Global Integrated Services Ltd operates as an
+                  integrated estate, property, and facilities management company
+                  headquartered at{" "}
+                  <strong>
+                    No. 12, Liberty Drive, Off Alcon Road, Woji, Port Harcourt,
+                    Rivers State
+                  </strong>
+                  .
+                </p>
+                <p className="text-sm text-slate-700 leading-relaxed">
+                  Where engagements require statutory valuation reports, legal
+                  conveyancing/title perfection, or specialized high-voltage and
+                  mechanical engineering sign-offs, execution is formally
+                  coordinated alongside accredited partner Estate Surveyors and
+                  Valuers, legal practitioners, and COREN-certified engineering
+                  specialists.
+                </p>
+              </div>
             </div>
           </div>
         </div>
