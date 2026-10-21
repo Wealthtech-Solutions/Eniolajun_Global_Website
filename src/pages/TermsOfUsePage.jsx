@@ -47,12 +47,11 @@ export default function TermsOfUsePage() {
             </h2>
             <p>
               By accessing, browsing, or utilizing the website of{" "}
-              <strong>Eniolajun Global Integrated Services Ltd</strong> (CAC
-              Registration No: <strong>RC 1441429</strong>; “the Company”), you
-              acknowledge that you have read, understood, and agree to be bound
-              by these Terms of Use and our accompanying Privacy Policy. If you
-              do not agree with any part of these terms, you must refrain from
-              using our online portal.
+              <strong>Eniolajun Global Integrated Services Ltd</strong> (“the
+              Company”), you acknowledge that you have read, understood, and
+              agree to be bound by these Terms of Use and our accompanying
+              Privacy Policy. If you do not agree with any part of these terms,
+              you must refrain from using our online portal.
             </p>
           </div>
 

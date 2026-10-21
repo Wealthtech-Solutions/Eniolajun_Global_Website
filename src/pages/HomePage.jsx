@@ -241,13 +241,12 @@ export default function HomePage() {
                     04
                   </span>
                   <h4 className="text-lg font-semibold text-slate-900">
-                    Statutory & CAC Compliance (RC 1441429)
+                    Statutory & Regulatory Compliance
                   </h4>
                   <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                    Duly incorporated with the Corporate Affairs Commission (RC
-                    1441429), operating in full adherence to state urban
-                    planning laws, fire service certifications, and HSE
-                    regulations.
+                    Full adherence to state urban planning laws, fire service
+                    certifications, health and safety (HSE) standards, and
+                    environmental regulations.
                   </p>
                 </div>
               </div>

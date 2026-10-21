@@ -163,7 +163,7 @@ export const services = [
 
 export const stats = [
   { label: 'Core Service Disciplines', value: '10' },
-  { label: 'CAC Registered Entity', value: 'RC 1441429' },
+  { label: 'Years of Collective Expertise', value: '15+' },
   { label: 'Service Account Transparency', value: '100%' },
   { label: 'Emergency Dispatch Target', value: '< 2 hrs' }
 ];

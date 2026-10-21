@@ -8,7 +8,6 @@ import {
   CheckCircle2,
   ChevronDown,
   ChevronUp,
-  ShieldCheck,
   ExternalLink,
 } from "lucide-react";
 import { services } from "../data/servicesData";
@@ -43,10 +42,6 @@ export default function ContactPage() {
   };
 
   const faqs = [
-    {
-      q: "Is Eniolajun Global Integrated Services Ltd registered and active with the Corporate Affairs Commission (CAC)?",
-      a: "Yes. ENIOLAJUN GLOBAL INTEGRATED SERVICES LIMITED is an ACTIVE, duly incorporated Nigerian corporate entity registered with the Corporate Affairs Commission (CAC) under Registration Number RC 1441429 (verifiable on the official CAC portal at search.cac.gov.ng). Please note that unaffiliated third-party scraper directories (such as b2bhint.com) display outdated historical snapshots because the official CAC portal blocks automated bulk scraping; our live status on the official CAC registry is ACTIVE.",
-    },
     {
       q: "How quickly can Eniolajun Global commence facility or estate management?",
       a: "Following an initial on-site physical inspection and agreement on the Scope of Work (SOW), our team can mobilize within 3 to 5 business days with security protocols, technical maintenance schedules, and financial administration structures.",
@@ -194,21 +189,6 @@ export default function ContactPage() {
                   <p className="text-xs text-slate-500 pt-2 border-t border-slate-100">
                     Serving residential estates and corporate facilities across
                     Rivers State, Lagos, Abuja, and nationwide.
-                  </p>
-                </div>
-
-                <div className="p-5 rounded-2xl bg-emerald-50/70 border border-emerald-200 shadow-xs space-y-2">
-                  <div className="flex items-center gap-2 text-emerald-950 font-bold text-sm">
-                    <ShieldCheck className="w-4 h-4 text-emerald-700" />
-                    <span>Corporate Registry Verification</span>
-                  </div>
-                  <p className="text-xs sm:text-sm text-emerald-900 leading-relaxed">
-                    <strong>Legal Entity:</strong> Eniolajun Global Integrated
-                    Services Ltd
-                  </p>
-                  <p className="text-xs sm:text-sm text-emerald-900 leading-relaxed">
-                    <strong>CAC Registration No:</strong> RC 1441429 (Verified
-                    Corporate Affairs Commission of Nigeria)
                   </p>
                 </div>
               </div>
@@ -404,7 +384,7 @@ export default function ContactPage() {
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-600 mt-1">
                   No. 12, Liberty Drive, Off Alcon Road, Woji, Port Harcourt,
-                  Rivers State, Nigeria • CAC Registration: RC 1441429
+                  Rivers State, Nigeria
                 </p>
               </div>
               <a

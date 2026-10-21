@@ -26,16 +26,14 @@ export default function Footer() {
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed max-w-md">
               A trusted Nigerian estate management, valuation, and total
-              facility administration firm (CAC Registration No: RC 1441429). We
-              protect asset value, optimize operational efficiency, and deliver
-              sustainable real estate solutions for landlords, corporations, and
-              residential estates.
+              facility administration firm. We protect asset value, optimize
+              operational efficiency, and deliver sustainable real estate
+              solutions for landlords, corporations, and residential estates.
             </p>
             <div className="flex items-center gap-2 text-xs text-emerald-400 bg-slate-800/80 px-3 py-2 rounded-lg border border-slate-700/60 w-fit">
               <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
               <span>
-                CAC Registered Corporate Entity (RC 1441429) • Licensed Estate
-                Managers
+                Registered Corporate Entity • Licensed Estate Managers
               </span>
             </div>
           </div>
@@ -206,8 +204,8 @@ export default function Footer() {
         {/* Bottom Credits & Copyright */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-xs sm:text-sm text-slate-400 gap-4 md:pr-24 lg:pr-28">
           <p>
-            © {CURRENT_YEAR} Eniolajun Global Integrated Services Ltd (RC
-            1441429). All rights reserved.
+            © {CURRENT_YEAR} Eniolajun Global Integrated Services Ltd. All
+            rights reserved.
           </p>
           <div className="flex flex-wrap items-center justify-start md:justify-end gap-x-4 gap-y-2">
             <Link

@@ -13,51 +13,51 @@ const routes = [
   {
     path: "/",
     title:
-      "Eniolajun Global Integrated Services Ltd (RC 1441429) | Real Estate & Facility Management",
+      "Eniolajun Global Integrated Services Ltd | Real Estate & Facility Management",
     description:
-      "Eniolajun Global Integrated Services Ltd (CAC Registration No: RC 1441429) provides premier estate management, property valuation, facility administration, and building maintenance across Port Harcourt, Lagos, Abuja, and Nigeria.",
+      "Eniolajun Global Integrated Services Ltd provides premier estate management, property valuation, facility administration, and building maintenance across Port Harcourt, Lagos, Abuja, and Nigeria.",
   },
   {
     path: "/about",
     title:
-      "About Us | Eniolajun Global Integrated Services Ltd (RC 1441429) — Estate & Facility Managers",
+      "About Us | Eniolajun Global Integrated Services Ltd — Estate & Facility Managers",
     description:
-      "Learn about Eniolajun Global Integrated Services Ltd (CAC Registration No: RC 1441429), a premier Nigerian real estate and total facility management firm headquartered in Woji, Port Harcourt with nationwide operations.",
+      "Learn about Eniolajun Global Integrated Services Ltd, a premier Nigerian real estate and total facility management firm headquartered in Woji, Port Harcourt with nationwide operations.",
   },
   {
     path: "/services",
     title:
-      "Our 10 Core Services | Eniolajun Global Integrated Services Ltd (RC 1441429)",
+      "Our 10 Core Services | Eniolajun Global Integrated Services Ltd",
     description:
       "Explore our 10 core disciplines: Estate Management, Property Administration, Property Sales, Valuation & Consultancy, Facility Management, Building Maintenance, Landscaping, Refurbishment, Installations, and Utilities Operations.",
   },
   {
     path: "/projects",
     title:
-      "Projects & Portfolio | Eniolajun Global Integrated Services Ltd (RC 1441429)",
+      "Projects & Portfolio | Eniolajun Global Integrated Services Ltd",
     description:
       "View our proven track record managing residential estates, commercial complexes, property refurbishments, and valuations across Port Harcourt and Lagos.",
   },
   {
     path: "/contact",
     title:
-      "Contact Us & Google Maps Location | Eniolajun Global Integrated Services Ltd (RC 1441429)",
+      "Contact Us & Google Maps Location | Eniolajun Global Integrated Services Ltd",
     description:
-      "Contact Eniolajun Global Integrated Services Ltd (RC 1441429) at +234 703 431 6633 or visit our head office at No. 12 Liberty Drive, Off Alcon Road, Woji, Port Harcourt.",
+      "Contact Eniolajun Global Integrated Services Ltd at +234 703 431 6633 or visit our head office at No. 12 Liberty Drive, Off Alcon Road, Woji, Port Harcourt.",
   },
   {
     path: "/privacy-policy",
     title:
-      "Privacy Policy | Eniolajun Global Integrated Services Ltd (RC 1441429)",
+      "Privacy Policy | Eniolajun Global Integrated Services Ltd",
     description:
-      "Privacy Policy and Nigeria Data Protection Act (NDPA) compliance practices of Eniolajun Global Integrated Services Ltd (RC 1441429).",
+      "Privacy Policy and Nigeria Data Protection Act (NDPA) compliance practices of Eniolajun Global Integrated Services Ltd.",
   },
   {
     path: "/terms-of-use",
     title:
-      "Terms of Use | Eniolajun Global Integrated Services Ltd (RC 1441429)",
+      "Terms of Use | Eniolajun Global Integrated Services Ltd",
     description:
-      "Legal terms and operating conditions governing service proposals, site inspections, and use of the Eniolajun Global Integrated Services Ltd (RC 1441429) website.",
+      "Legal terms and operating conditions governing service proposals, site inspections, and use of the Eniolajun Global Integrated Services Ltd website.",
   },
 ];
 

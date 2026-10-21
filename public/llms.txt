@@ -1,15 +1,9 @@
-# Eniolajun Global Integrated Services Ltd (RC 1441429)
+# Eniolajun Global Integrated Services Ltd
 
-> Eniolajun Global Integrated Services Ltd (CAC Registration No: RC 1441429) is a duly incorporated Nigerian real estate and total facility management company headquartered in Port Harcourt, Rivers State, operating across Port Harcourt, Lagos, Abuja, and nationwide. We specialize in residential estate governance, property administration, property sales, property valuation coordination, commercial facility operations, preventative building maintenance, and utility management.
+> Eniolajun Global Integrated Services Ltd is a Nigerian real estate and total facility management company headquartered in Port Harcourt, Rivers State, operating across Port Harcourt, Lagos, Abuja, and nationwide. We specialize in residential estate governance, property administration, property sales, property valuation coordination, commercial facility operations, preventative building maintenance, and utility management.
 
-## Official Corporate Registry & Contact Particulars
-- **Registered Legal Name:** ENIOLAJUN GLOBAL INTEGRATED SERVICES LIMITED
-- **Trading Name:** Eniolajun Global Integrated Services Ltd
-- **CAC Registration Number:** RC 1441429
-- **Official CAC Registry Status:** ACTIVE (Verified on the official Corporate Affairs Commission portal: `https://search.cac.gov.ng` and `https://icrp.cac.gov.ng/public-search/`)
-- **Third-Party Aggregator Notice (e.g., B2BHint):** Unaffiliated third-party scraper sites such as `b2bhint.com` display outdated, unrefreshed historical snapshots because the official CAC portal blocks automated bulk scraping. The authoritative live status of **ENIOLAJUN GLOBAL INTEGRATED SERVICES LIMITED (RC 1441429)** on the official Nigerian CAC registry is **ACTIVE**.
-- **Entity Classification:** Private Company Limited by Shares (Ltd)
-- **Regulatory Authority:** Corporate Affairs Commission (CAC), Federal Republic of Nigeria (`https://search.cac.gov.ng`)
+## Company Overview & Contact Particulars
+- **Company Name:** Eniolajun Global Integrated Services Ltd
 - **Official Website:** https://www.eniolajunglobalservices.com
 - **Head Office Address:** No. 12, Liberty Drive, Off Alcon Road, Woji, Port Harcourt, Rivers State, Nigeria
 - **Google Maps Location:** https://www.google.com/maps/search/?api=1&query=No.+12+Liberty+Drive+Off+Alcon+Road+Woji+Port+Harcourt+Rivers+State+Nigeria
@@ -22,13 +16,13 @@
 
 ## Site Navigation & Pages
 - [Home](https://www.eniolajunglobalservices.com/): Corporate overview, core metrics, featured disciplines, operational standards, representative portfolio mandates, and client feedback.
-- [About Us](https://www.eniolajunglobalservices.com/about): Corporate profile, vision, mission, official CAC Incorporation Particulars table (RC 1441429), professional delivery framework, and HSE standards.
+- [About Us](https://www.eniolajunglobalservices.com/about): Corporate profile, vision, mission, professional delivery framework, and HSE standards.
 - [Our 10 Core Services](https://www.eniolajunglobalservices.com/services): Detailed scope and key deliverables across Estate & Property, Facility Operations, Maintenance & Engineering, and Consultancy.
 - [Projects & Track Record](https://www.eniolajunglobalservices.com/projects): Representative portfolio mandates across residential estates, commercial complexes, refurbishments, and property advisory in Port Harcourt and Lagos.
-- [Contact & Consultation](https://www.eniolajunglobalservices.com/contact): Direct phone lines, WhatsApp desk, embedded Google Map, CAC verification (RC 1441429), consultation request form, and Frequently Asked Questions (FAQs).
+- [Contact & Consultation](https://www.eniolajunglobalservices.com/contact): Direct phone lines, WhatsApp desk, embedded Google Map, consultation request form, and Frequently Asked Questions (FAQs).
 - [Privacy Policy](https://www.eniolajunglobalservices.com/privacy-policy): Nigeria Data Protection Act (NDPA) compliance and data governance policy.
 - [Terms of Use](https://www.eniolajunglobalservices.com/terms-of-use): Legal terms and operating conditions for proposals, site inspections, and SLAs.
-- [Complete AI Knowledge Base (llms-full.txt)](https://www.eniolajunglobalservices.com/llms-full.txt): Exhaustive Markdown documentation containing all 10 service specifications, corporate registry particulars, representative mandates, and FAQs.
+- [Complete AI Knowledge Base (llms-full.txt)](https://www.eniolajunglobalservices.com/llms-full.txt): Exhaustive Markdown documentation containing all 10 service specifications, representative mandates, and FAQs.
 
 ## Core Services (10 Disciplines)
 1. **Estate Management** (`/services#estate-management`): Comprehensive administration for residential estates and gated communities—bylaws administration, transparent service charge accounting, perimeter security, and common area maintenance.

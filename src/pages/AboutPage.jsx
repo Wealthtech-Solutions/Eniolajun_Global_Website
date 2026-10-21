@@ -25,10 +25,10 @@ export default function AboutPage() {
               A Disciplined Partner in Real Estate & Total Facility Solutions
             </h1>
             <p className="text-base sm:text-lg text-slate-300 leading-relaxed">
-              Eniolajun Global Integrated Services Ltd (CAC Registration No: RC
-              1441429) is a premier Nigerian corporate entity established to
-              bring transparency, engineering rigor, and structural longevity to
-              property and facility management.
+              Eniolajun Global Integrated Services Ltd is a premier Nigerian
+              corporate entity established to bring transparency, engineering
+              rigor, and structural longevity to property and facility
+              management.
             </p>
           </div>
         </div>
@@ -85,10 +85,10 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900 text-base">
-                      CAC Registered (RC 1441429)
+                      Registered Corporate Entity
                     </h4>
                     <p className="text-xs sm:text-sm text-slate-600">
-                      Verified Corporate Affairs Commission entity
+                      Compliant Nigerian corporate management firm
                     </p>
                   </div>
                 </div>
@@ -232,127 +232,35 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Corporate Registry & Statutory Verification Section */}
+      {/* Professional Delivery & Governance Section */}
       <section className="py-16 bg-slate-50 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mb-10 space-y-2">
+          <div className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 shadow-xs space-y-4">
             <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-emerald-700 bg-emerald-100/70 px-3.5 py-1.5 rounded-full">
-              Statutory & Corporate Verification
+              Corporate Governance & Service Delivery
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
-              Official Corporate Registry Profile
+              Professional Delivery & Compliance Framework
             </h2>
-            <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-              Public corporate registration and operational governance details
-              for institutional due diligence, vendor onboarding, and regulatory
-              verification.
+            <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
+              Eniolajun Global Integrated Services Ltd operates as an integrated
+              estate, property, and facilities management company headquartered
+              at{" "}
+              <strong>
+                No. 12, Liberty Drive, Off Alcon Road, Woji, Port Harcourt,
+                Rivers State, Nigeria
+              </strong>
+              , serving residential communities and commercial facilities across
+              Port Harcourt, Lagos, Abuja, and nationwide.
             </p>
-          </div>
-
-          <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs">
-            <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-200">
-              <div className="p-6 sm:p-8 space-y-4">
-                <h3 className="text-base font-bold text-slate-900 uppercase tracking-wider">
-                  CAC Incorporation Particulars
-                </h3>
-                <dl className="space-y-3 text-sm">
-                  <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-100 pb-2">
-                    <dt className="text-slate-500 font-medium">
-                      {" "}
-                      Registered Legal Name
-                    </dt>
-                    <dd className="text-slate-900 font-semibold">
-                      ENIOLAJUN GLOBAL INTEGRATED SERVICES LIMITED
-                    </dd>
-                  </div>
-                  <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-100 pb-2">
-                    <dt className="text-slate-500 font-medium">
-                      CAC Registration Number
-                    </dt>
-                    <dd className="text-emerald-700 font-bold">RC 1441429</dd>
-                  </div>
-                  <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-100 pb-2">
-                    <dt className="text-slate-500 font-medium">
-                      Official CAC Registry Status
-                    </dt>
-                    <dd className="text-emerald-700 font-bold">
-                      ACTIVE (Verified on Official CAC Portal)
-                    </dd>
-                  </div>
-                  <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-100 pb-2">
-                    <dt className="text-slate-500 font-medium">
-                      Entity Classification
-                    </dt>
-                    <dd className="text-slate-900 font-medium">
-                      Private Company Limited by Shares (Ltd)
-                    </dd>
-                  </div>
-                  <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-100 pb-2">
-                    <dt className="text-slate-500 font-medium">
-                      Regulatory Authority
-                    </dt>
-                    <dd className="text-slate-900 font-medium">
-                      Corporate Affairs Commission (CAC), Nigeria
-                    </dd>
-                  </div>
-                  <div className="flex flex-col sm:flex-row sm:justify-between">
-                    <dt className="text-slate-500 font-medium">
-                      Public Registry Portal
-                    </dt>
-                    <dd>
-                      <a
-                        href="https://search.cac.gov.ng"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-emerald-700 hover:underline font-semibold"
-                      >
-                        search.cac.gov.ng (Search: 1441429) →
-                      </a>
-                    </dd>
-                  </div>
-                </dl>
-              </div>
-
-              <div className="p-6 sm:p-8 space-y-4">
-                <h3 className="text-base font-bold text-slate-900 uppercase tracking-wider">
-                  Professional Delivery & Compliance Framework
-                </h3>
-                <p className="text-sm text-slate-700 leading-relaxed">
-                  Eniolajun Global Integrated Services Ltd operates as an
-                  integrated estate, property, and facilities management company
-                  headquartered at{" "}
-                  <strong>
-                    No. 12, Liberty Drive, Off Alcon Road, Woji, Port Harcourt,
-                    Rivers State
-                  </strong>
-                  .
-                </p>
-                <p className="text-sm text-slate-700 leading-relaxed">
-                  Where engagements require statutory valuation reports, legal
-                  conveyancing/title perfection, or specialized high-voltage and
-                  mechanical engineering sign-offs, execution is formally
-                  coordinated alongside accredited partner Estate Surveyors and
-                  Valuers, legal practitioners, and COREN-certified engineering
-                  specialists.
-                </p>
-                <p className="text-xs text-slate-500 pt-2 border-t border-slate-100 leading-relaxed">
-                  <strong>Registry Verification Note:</strong> Always verify our
-                  active corporate status directly on the official Nigerian
-                  Corporate Affairs Commission portal (
-                  <a
-                    href="https://search.cac.gov.ng"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-emerald-700 underline"
-                  >
-                    search.cac.gov.ng
-                  </a>
-                  ). Unaffiliated third-party scraper sites (such as{" "}
-                  <em>b2bhint.com</em>) display unrefreshed historical caches
-                  and do not reflect live CAC annual return filings.
-                </p>
-              </div>
-            </div>
+            <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
+              Where client engagements require statutory valuation reports,
+              legal conveyancing/title perfection, or specialized high-voltage
+              and mechanical engineering sign-offs, execution is formally
+              coordinated alongside accredited partner Estate Surveyors and
+              Valuers, legal practitioners, and COREN-certified engineering
+              specialists.
+            </p>
           </div>
         </div>
       </section>

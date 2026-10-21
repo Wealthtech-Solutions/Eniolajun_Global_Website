@@ -57,7 +57,7 @@ export default function Navbar() {
             </div>
             <span className="hidden lg:inline text-slate-700">|</span>
             <span className="hidden lg:inline text-slate-400">
-              CAC Registered (RC 1441429) • Licensed Estate Managers
+              Registered Corporate Entity • Licensed Estate Managers
             </span>
           </div>
         </div>
