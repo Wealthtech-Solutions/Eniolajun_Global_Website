@@ -1,19 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  Building2,
   ShieldCheck,
   Award,
-  CheckCircle,
   Target,
   Eye,
-  Users,
   ArrowRight,
   HardHat,
   FileCheck2,
   Clock,
 } from "lucide-react";
-import { stats } from "../data/servicesData";
 
 export default function AboutPage() {
   return (
@@ -29,10 +25,10 @@ export default function AboutPage() {
               A Disciplined Partner in Real Estate & Total Facility Solutions
             </h1>
             <p className="text-base sm:text-lg text-slate-300 leading-relaxed">
-              Eniolajun Global Integrated Services Ltd is a premier Nigerian
-              corporate entity established to bring transparency, engineering
-              rigor, and structural longevity to property and facility
-              management.
+              Eniolajun Global Integrated Services Ltd (CAC Registration No: RC
+              1441429) is a premier Nigerian corporate entity established to
+              bring transparency, engineering rigor, and structural longevity to
+              property and facility management.
             </p>
           </div>
         </div>
@@ -86,10 +82,10 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900 text-base">
-                      CAC Registered
+                      CAC Registered (RC 1441429)
                     </h4>
                     <p className="text-xs sm:text-sm text-slate-600">
-                      Fully compliant Nigerian corporate entity
+                      Verified Corporate Affairs Commission entity
                     </p>
                   </div>
                 </div>

@@ -11,9 +11,9 @@ import {
 import { services } from "../data/servicesData";
 import Logo from "./Logo";
 
-export default function Footer() {
-  const currentYear = new Date().getFullYear();
+const CURRENT_YEAR = 2026;
 
+export default function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-300 pt-16 pb-28 md:pb-24 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -26,14 +26,16 @@ export default function Footer() {
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed max-w-md">
               A trusted Nigerian estate management, valuation, and total
-              facility administration firm. We protect asset value, optimize
-              operational efficiency, and deliver sustainable real estate
-              solutions for landlords, corporations, and residential estates.
+              facility administration firm (CAC Registration No: RC 1441429). We
+              protect asset value, optimize operational efficiency, and deliver
+              sustainable real estate solutions for landlords, corporations, and
+              residential estates.
             </p>
             <div className="flex items-center gap-2 text-xs text-emerald-400 bg-slate-800/80 px-3 py-2 rounded-lg border border-slate-700/60 w-fit">
               <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
               <span>
-                Registered Corporate Entity • Licensed Estate Managers
+                CAC Registered Corporate Entity (RC 1441429) • Licensed Estate
+                Managers
               </span>
             </div>
           </div>
@@ -145,10 +147,20 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-slate-400">
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                <span>
-                  No. 12, Liberty Drive, Off Alcon Road, Woji, Port Harcourt,
-                  Rivers State, Nigeria.
-                </span>
+                <div className="space-y-1">
+                  <span className="block">
+                    No. 12, Liberty Drive, Off Alcon Road, Woji, Port Harcourt,
+                    Rivers State, Nigeria.
+                  </span>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=No.+12+Liberty+Drive+Off+Alcon+Road+Woji+Port+Harcourt+Rivers+State+Nigeria"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-emerald-400 hover:text-emerald-300 underline underline-offset-2 inline-block"
+                  >
+                    View Head Office on Google Maps →
+                  </a>
+                </div>
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
@@ -194,8 +206,8 @@ export default function Footer() {
         {/* Bottom Credits & Copyright */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-xs sm:text-sm text-slate-400 gap-4 md:pr-24 lg:pr-28">
           <p>
-            © {currentYear} Eniolajun Global Integrated Services Ltd. All rights
-            reserved.
+            © {CURRENT_YEAR} Eniolajun Global Integrated Services Ltd (RC
+            1441429). All rights reserved.
           </p>
           <div className="flex flex-wrap items-center justify-start md:justify-end gap-x-4 gap-y-2">
             <Link

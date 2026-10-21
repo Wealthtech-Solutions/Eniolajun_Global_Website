@@ -3,13 +3,13 @@ import {
   Phone,
   Mail,
   MapPin,
-  Clock,
   MessageCircle,
   Send,
   CheckCircle2,
   ChevronDown,
   ChevronUp,
   ShieldCheck,
+  ExternalLink,
 } from "lucide-react";
 import { services } from "../data/servicesData";
 
@@ -43,6 +43,10 @@ export default function ContactPage() {
   };
 
   const faqs = [
+    {
+      q: "Is Eniolajun Global Integrated Services Ltd registered with the Corporate Affairs Commission (CAC)?",
+      a: "Yes. Eniolajun Global Integrated Services Ltd is an active, duly incorporated Nigerian corporate entity registered with the Corporate Affairs Commission (CAC) under Registration Number RC 1441429.",
+    },
     {
       q: "How quickly can Eniolajun Global commence facility or estate management?",
       a: "Following an initial on-site physical inspection and agreement on the Scope of Work (SOW), our team can mobilize within 3 to 5 business days with security protocols, technical maintenance schedules, and financial administration structures.",
@@ -172,15 +176,39 @@ export default function ContactPage() {
                 <div className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2">
                   <div className="flex items-center gap-2 text-slate-900 font-bold text-sm">
                     <MapPin className="w-4 h-4 text-emerald-700" />
-                    <span>Head Office & Operational Footprint</span>
+                    <span>Head Office & Google Maps Location</span>
                   </div>
                   <p className="text-xs sm:text-sm text-slate-700 font-medium leading-relaxed">
                     No. 12, Liberty Drive, Off Alcon Road, Woji, Port Harcourt,
                     Rivers State, Nigeria.
                   </p>
-                  <p className="text-xs text-slate-500 pt-1 border-t border-slate-100">
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=No.+12+Liberty+Drive+Off+Alcon+Road+Woji+Port+Harcourt+Rivers+State+Nigeria"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 hover:text-emerald-800 pt-1"
+                  >
+                    <span>Open Head Office on Google Maps</span>
+                    <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                  <p className="text-xs text-slate-500 pt-2 border-t border-slate-100">
                     Serving residential estates and corporate facilities across
                     Rivers State, Lagos, Abuja, and nationwide.
+                  </p>
+                </div>
+
+                <div className="p-5 rounded-2xl bg-emerald-50/70 border border-emerald-200 shadow-xs space-y-2">
+                  <div className="flex items-center gap-2 text-emerald-950 font-bold text-sm">
+                    <ShieldCheck className="w-4 h-4 text-emerald-700" />
+                    <span>Corporate Registry Verification</span>
+                  </div>
+                  <p className="text-xs sm:text-sm text-emerald-900 leading-relaxed">
+                    <strong>Legal Entity:</strong> Eniolajun Global Integrated
+                    Services Ltd
+                  </p>
+                  <p className="text-xs sm:text-sm text-emerald-900 leading-relaxed">
+                    <strong>CAC Registration No:</strong> RC 1441429 (Verified
+                    Corporate Affairs Commission of Nigeria)
                   </p>
                 </div>
               </div>
@@ -363,6 +391,46 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
+
+          {/* Interactive Google Maps Embed for Head Office Verification */}
+          <div className="mt-12 bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-xs">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+              <div>
+                <span className="text-xs font-bold uppercase tracking-wider text-emerald-700 bg-emerald-100/70 px-3 py-1 rounded-full">
+                  Google Maps Location
+                </span>
+                <h3 className="text-xl sm:text-2xl font-bold text-slate-900 mt-2">
+                  Visit Our Head Office in Woji, Port Harcourt
+                </h3>
+                <p className="text-xs sm:text-sm text-slate-600 mt-1">
+                  No. 12, Liberty Drive, Off Alcon Road, Woji, Port Harcourt,
+                  Rivers State, Nigeria • CAC Registration: RC 1441429
+                </p>
+              </div>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=No.+12+Liberty+Drive+Off+Alcon+Road+Woji+Port+Harcourt+Rivers+State+Nigeria"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-emerald-700 text-white text-xs sm:text-sm font-semibold transition shrink-0"
+              >
+                <MapPin className="w-4 h-4" />
+                <span>View on Google Maps</span>
+                <ExternalLink className="w-3.5 h-3.5" />
+              </a>
+            </div>
+            <div className="w-full h-72 sm:h-80 rounded-2xl overflow-hidden border border-slate-200 bg-slate-100">
+              <iframe
+                title="Eniolajun Global Integrated Services Ltd Head Office - No. 12 Liberty Drive, Off Alcon Road, Woji, Port Harcourt"
+                src="https://maps.google.com/maps?q=Liberty%20Drive,%20Off%20Alcon%20Road,%20Woji,%20Port%20Harcourt,%20Rivers%20State,%20Nigeria&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -397,11 +465,13 @@ export default function ContactPage() {
                       <ChevronDown className="w-5 h-5 text-slate-400 shrink-0 ml-2" />
                     )}
                   </button>
-                  {isOpen && (
-                    <div className="px-6 pb-5 pt-1 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-200/60 bg-white">
-                      {faq.a}
-                    </div>
-                  )}
+                  <div
+                    className={`px-6 pb-5 pt-1 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-200/60 bg-white ${
+                      isOpen ? "block" : "hidden"
+                    }`}
+                  >
+                    {faq.a}
+                  </div>
                 </div>
               );
             })}

@@ -13,9 +13,9 @@ import ContactPage from "./pages/ContactPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 import TermsOfUsePage from "./pages/TermsOfUsePage";
 
-function App() {
+export function AppLayout() {
   return (
-    <BrowserRouter>
+    <>
       <ScrollToTop />
       <div className="min-h-screen flex flex-col bg-white text-slate-800 antialiased selection:bg-emerald-700 selection:text-white pb-14 md:pb-0">
         <Navbar />
@@ -36,6 +36,14 @@ function App() {
         <WhatsAppWidget />
         <MobileBottomBar />
       </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AppLayout />
     </BrowserRouter>
   );
 }

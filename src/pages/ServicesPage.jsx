@@ -113,7 +113,7 @@ export default function ServicesPage() {
           </div>
         ) : (
           <div className="divide-y divide-slate-200 border-y border-slate-200">
-            {filteredServices.map((srv, idx) => {
+            {filteredServices.map((srv) => {
               const originalIndex = services.findIndex((s) => s.id === srv.id);
               const displayNumber = String(originalIndex + 1).padStart(2, "0");
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MapPin, Calendar, Award, ArrowRight, PhoneCall } from "lucide-react";
+import { MapPin, Calendar, Award, PhoneCall } from "lucide-react";
 import { projects } from "../data/projectsData";
 
 export default function ProjectsPage() {

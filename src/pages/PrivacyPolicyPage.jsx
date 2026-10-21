@@ -1,15 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  ShieldCheck,
-  Lock,
-  Eye,
-  FileText,
-  ArrowLeft,
-  Mail,
-  Phone,
-  MapPin,
-} from "lucide-react";
+import { ArrowLeft, Mail, Phone, MapPin } from "lucide-react";
 
 export default function PrivacyPolicyPage() {
   const lastUpdated = "October 2026";
@@ -55,11 +46,12 @@ export default function PrivacyPolicyPage() {
               1. Introduction & Scope
             </h2>
             <p>
-              <strong>Eniolajun Global Integrated Services Ltd</strong> (“we,”
-              “our,” or “the Firm”), with corporate headquarters at No. 12,
-              Liberty Drive, Off Alcon Road, Woji, Port Harcourt, Rivers State,
-              Nigeria, is dedicated to upholding the highest standards of data
-              privacy and confidentiality.
+              <strong>Eniolajun Global Integrated Services Ltd</strong> (CAC
+              Registration No: <strong>RC 1441429</strong>; “we,” “our,” or “the
+              Firm”), with corporate headquarters at No. 12, Liberty Drive, Off
+              Alcon Road, Woji, Port Harcourt, Rivers State, Nigeria, is
+              dedicated to upholding the highest standards of data privacy and
+              confidentiality.
             </p>
             <p>
               This Privacy Policy explains how we collect, process, store, and
