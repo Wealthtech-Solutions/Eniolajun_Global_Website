@@ -233,7 +233,7 @@ export default function PrivacyPolicyPage() {
               </div>
               <div className="flex items-center gap-2 text-slate-700">
                 <Mail className="w-4 h-4 text-emerald-700 shrink-0" />
-                <span>eniolajunglobal@gmail.com</span>
+                <span>eniolajunglobalservices@gmail.com</span>
               </div>
             </div>
           </div>

@@ -149,7 +149,7 @@ export default function ContactPage() {
                 </a>
 
                 <a
-                  href="mailto:eniolajunglobal@gmail.com"
+                  href="mailto:eniolajunglobalservices@gmail.com"
                   className="flex items-start gap-4 p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-emerald-500 transition group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-slate-900 group-hover:bg-emerald-600 text-white flex items-center justify-center shrink-0 transition">
@@ -160,7 +160,7 @@ export default function ContactPage() {
                       Official Email
                     </h4>
                     <p className="text-sm text-slate-700 font-medium mt-0.5 break-all">
-                      eniolajunglobal@gmail.com
+                      eniolajunglobalservices@gmail.com
                     </p>
                     <p className="text-xs text-slate-500 mt-1">
                       Formal RFPs, tenders & management proposals

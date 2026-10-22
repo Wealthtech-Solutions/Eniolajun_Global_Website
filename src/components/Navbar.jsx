@@ -42,11 +42,11 @@ export default function Navbar() {
               <span className="font-medium">+234 703 431 6633</span>
             </a>
             <a
-              href="mailto:eniolajunglobal@gmail.com"
+              href="mailto:eniolajunglobalservices@gmail.com"
               className="hidden md:flex items-center gap-1.5 hover:text-emerald-400 transition"
             >
               <Mail className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-              <span>eniolajunglobal@gmail.com</span>
+              <span>eniolajunglobalservices@gmail.com</span>
             </a>
           </div>
 

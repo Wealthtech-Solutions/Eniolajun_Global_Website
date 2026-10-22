@@ -180,10 +180,10 @@ export default function Footer() {
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-emerald-400 shrink-0" />
                 <a
-                  href="mailto:eniolajunglobal@gmail.com"
+                  href="mailto:eniolajunglobalservices@gmail.com"
                   className="hover:text-white transition break-all"
                 >
-                  eniolajunglobal@gmail.com
+                  eniolajunglobalservices@gmail.com
                 </a>
               </li>
               <li className="pt-2">
